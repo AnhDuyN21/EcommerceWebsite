@@ -1,13 +1,15 @@
-
 import './App.css'
 import Navbar from './components/navbar/Navbar'
+import GlobalStyle from './components/globalStyle/GlobalStyle'
 
 function App() {
 
 
   return (
     <>
-      <Navbar />
+      <GlobalStyle>
+        <Navbar />
+      </GlobalStyle>
     </>
   )
 }

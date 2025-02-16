@@ -182,4 +182,4 @@ let all_product = [
     },
 
 
-]
+];
