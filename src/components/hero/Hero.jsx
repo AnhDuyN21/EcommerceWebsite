@@ -9,18 +9,18 @@ function Hero() {
                 <div>
                     <div className="hero-hand-icon">
                         <p>new</p>
-                        <img src="src/assets/images/hand-icon.png" alt="" />
+                        <img src="./images/hand-icon.png" alt="" />
                     </div>
                     <p>collection</p>
                     <p>for everyone</p>
                 </div>
                 <div className="hero-latest-btn">
                     <div>Latest Collection</div>
-                    <img src="src/assets/images/arrow-right.png" alt="" />
+                    <img src="./images/arrow-right.png" alt="" />
                 </div>
             </div>
             <div className="hero-right">
-                <img src="src/assets/images/hero-img.png" alt="" />
+                <img src="./images/hero-img.png" alt="" />
             </div>
         </div>
     );
