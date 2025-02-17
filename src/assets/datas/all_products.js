@@ -31,7 +31,7 @@ const all_product = [
     {
         id: 2,
         name: "Áo có hình ngôi sao",
-        category: "woman",
+        category: "women",
         image: p2_img,
         new_price: 100.000,
         old_price: 50.000,
@@ -55,7 +55,7 @@ const all_product = [
     {
         id: 5,
         name: "Áo có chữ và màu nâu",
-        category: "men",
+        category: "kid",
         image: p5_img,
         new_price: 100.000,
         old_price: 50.000,
@@ -71,7 +71,7 @@ const all_product = [
     {
         id: 7,
         name: "Áo có hình nhịp tim",
-        category: "men",
+        category: "kid",
         image: p7_img,
         new_price: 100.000,
         old_price: 50.000,
@@ -79,7 +79,7 @@ const all_product = [
     {
         id: 8,
         name: "Áo ôm eo màu đen",
-        category: "woman",
+        category: "women",
         image: p8_img,
         new_price: 100.000,
         old_price: 50.000,
@@ -87,7 +87,7 @@ const all_product = [
     {
         id: 9,
         name: "Áo ôm eo màu hồng",
-        category: "woman",
+        category: "women",
         image: p9_img,
         new_price: 100.000,
         old_price: 50.000,
@@ -103,7 +103,7 @@ const all_product = [
     {
         id: 11,
         name: "Áo có hình đám mây màu xi măng",
-        category: "men",
+        category: "kid",
         image: p11_img,
         new_price: 100.000,
         old_price: 50.000,
@@ -119,7 +119,7 @@ const all_product = [
     {
         id: 13,
         name: "Áo hình cậu bé hút thuốc",
-        category: "men",
+        category: "kid",
         image: p13_img,
         new_price: 100.000,
         old_price: 50.000,
