@@ -19,7 +19,7 @@ import p18_img from "/images/product-18.png"
 import p19_img from "/images/product-19.png"
 import p20_img from "/images/product-20.png"
 
-let all_product = [
+const all_product = [
     {
         id: 1,
         name: "Áo nhiều hình con mèo",
@@ -183,3 +183,5 @@ let all_product = [
 
 
 ];
+
+export default all_product
