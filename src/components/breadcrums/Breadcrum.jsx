@@ -7,7 +7,7 @@ function Breadcrum(props) {
 
     return (
         <div className="breadcrum">
-            HOME <img src="/images/arrow-breadcum.png" alt="" /> SHOP <img src="/images/arrow-breadcum.png" alt="" /> {product.category} <img src="/images/arrow-breadcum.png" alt="" /> {product.name}
+            HOME <img src="/images/greater-than.png" alt="" /> SHOP <img src="/images/greater-than.png" alt="" /> {product.category} <img src="/images/greater-than.png" alt="" /> {product.name}
         </div>
     );
 }
