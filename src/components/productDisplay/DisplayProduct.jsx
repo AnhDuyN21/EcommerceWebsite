@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ShopContext } from "../../context/ShopContext";
 import "./DisplayProduct.css"
 
 const ProductDisplay = (props) => {
     const { product } = props
+    const {addToCart} = useContext(ShopContext)
+
+    
     return (
         <div className="productdisplay">
             <div className="productdisplay-left">
@@ -47,7 +51,7 @@ const ProductDisplay = (props) => {
                     <div>XXL</div>
                 </div>
             </div>
-            <button>ADD TO CART</button>
+            <button onClick={() =>{addToCart(product.id)}}>ADD TO CART</button>
             <p className="productdisplay-right-category"><span>Category :</span>Women, T-shirts, Croptop</p>
             <p className="productdisplay-right-category"><span>Tags :</span>Modern, Lastest</p>
             </div>
